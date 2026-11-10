@@ -1,0 +1,13 @@
+name: ti2006b-workbench
+channels:
+  - defaults
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - https://repo.anaconda.com/pkgs/msys2
+dependencies:
+  - python=3.12
+  - ipykernel
+  - jupyter
+  - matplotlib
+  - pandas
+prefix: C:\Users\Admin\anaconda3\envs\ti2006b-workbench
