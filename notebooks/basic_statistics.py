@@ -169,3 +169,4 @@ display(spark.table(SUMMARY_TABLE).orderBy("run_ts_utc", ascending=False))
 # MAGIC - Since both channels come from the same synthetic distribution, these differences are sampling noise and should not be read as a channel effect.
 # MAGIC
 # MAGIC **Reproduction:** run on Databricks serverless with pandas, NumPy and Plotly (versions printed in section 1). Seed `42`; the only filter is the exclusion of rows with a missing amount or channel. Run all cells in order from a clean session.
+# MAGIC *Edited on GitHub to test pull into Databricks.*
